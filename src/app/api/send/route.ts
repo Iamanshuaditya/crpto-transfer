@@ -1,4 +1,4 @@
-import { balances } from "../balances/route";
+import { balances } from "@/lib/balance";
 
 export async function POST(req: Request, res: Response) {
     try {

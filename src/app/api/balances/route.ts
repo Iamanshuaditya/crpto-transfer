@@ -1,9 +1,5 @@
- export const balances: { [key: string]: number } = {
-    '0x1': 5000,
-    '0x2': 400,
-    '0x3': 100,
-    '0x4': 1200
-}
+import { balances } from "@/lib/balance"
+
 export async function POST(req: Request,res: Response) {
     try {
         const walletaddress = await req.json()
