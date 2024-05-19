@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const server = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://crpto-transfer.vercel.app/api',
     
 })
 
